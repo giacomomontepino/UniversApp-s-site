@@ -1,0 +1,79 @@
+/* Hero Section */
+.hero{
+    margin-top: 80px;
+}
+.hero .hero-right img{
+    display: none;
+}
+
+/* Showcase 2 */
+.showcase1{
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+/* Showcase 2 */
+.showcase2 .container{
+    flex-direction: column;
+}
+
+/* Showcase 3 */
+.showcase3{
+    width: 90%;
+}
+
+/* Showcase 4 */
+.showcase4 .container{
+    flex-direction: column;
+}
+
+/* Showcase 5 */
+.showcase5 .container{
+    flex-direction: column;
+}
+
+/* Showcase 6 (grid) */
+.gridContainer{
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+/* Showcase 7 */
+.showcase7 .container{
+    flex-direction: column;
+}
+.showcase7 .container .box2{
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 100px;
+}
+.showcase7 .container1 .box2{
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 200px;
+    text-align: center;
+    margin-top: 30px;
+}
+.showcase7 .container1 .box img{
+    display: none;
+}
+.showcase7 .container1{
+    flex-direction: column;
+}
+
+/* Footer */
+footer .container{
+    flex-direction: column;
+    justify-content: center;
+}
+footer .container .box2 img{
+    display: none;
+}
+footer .container2{
+    margin-top: 20px;
+    flex-direction: column;
+    text-align: center;
+}
+footer .container2 .right{
+    margin-top: 20px;
+}

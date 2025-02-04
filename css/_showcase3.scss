@@ -6,6 +6,7 @@
     color: white;
     flex-direction: column;
     margin-top: 150px;
+    width: 100%;
 
     .show{
         font-size: 20px;
@@ -29,7 +30,7 @@
         @include flexCenter;
         justify-content: space-around;
         margin: auto;
-        width: 1000px;
+        width: 80%;
         height: 500px;
         background: $navbar-color;
         border: 1px solid $navbar-color;

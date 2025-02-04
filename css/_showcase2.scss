@@ -27,10 +27,11 @@
         @include flexCenter;
         margin-top: 20px;
         justify-content: space-between;
+        width: 70%;
 
         &1{
-            width: 450px;
-            height: 250px;
+            width: 50%;
+            height: 50%;
             border: 1px solid $navbar-color;
             border-radius: 10px;
             background: $navbar-color;
@@ -38,7 +39,7 @@
             margin: 10px;
             padding: 20px;
             text-align: center;
-            font-size: 30px;
+            font-size: 25px;
             font-weight: bold;
             display: flex;
             flex-direction: column;

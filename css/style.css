@@ -9,7 +9,7 @@
   background: rgb(19, 19, 19);
   height: 80px;
   border-radius: 15px;
-  width: 1200px;
+  width: 80%;
   margin: auto;
   justify-content: space-between;
   margin-top: 20px;
@@ -160,10 +160,11 @@
   justify-content: center;
   margin-top: 20px;
   justify-content: space-between;
+  width: 70%;
 }
 .showcase2 .container1 {
-  width: 450px;
-  height: 250px;
+  width: 50%;
+  height: 50%;
   border: 1px solid rgb(19, 19, 19);
   border-radius: 10px;
   background: rgb(19, 19, 19);
@@ -171,7 +172,7 @@
   margin: 10px;
   padding: 20px;
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   display: flex;
   flex-direction: column;
@@ -198,6 +199,7 @@
   color: white;
   flex-direction: column;
   margin-top: 150px;
+  width: 100%;
 }
 .showcase3 .show {
   font-size: 20px;
@@ -222,7 +224,7 @@
   justify-content: center;
   justify-content: space-around;
   margin: auto;
-  width: 1000px;
+  width: 80%;
   height: 500px;
   background: rgb(19, 19, 19);
   border: 1px solid rgb(19, 19, 19);
