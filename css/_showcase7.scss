@@ -1,0 +1,84 @@
+@import './utilitys';
+
+.showcase7{
+    @include flexCenter;
+    flex-direction: column;
+    margin-top: 150px;
+
+    .container{
+        @include flexCenter;
+        
+
+        .box{
+            color: $text-color;
+            background: $navbar-color;
+            padding: 50px;
+            border-radius: 10px;
+
+            h2{
+                font-size: 30px;
+                margin-bottom: 10px;
+            }
+            p{
+                font-size: 20px;
+            }
+        }
+
+        .box2{
+            background: black;
+
+            .head{
+                @include flexCenter;
+                color: $text-color;
+                border-radius: 10px;
+
+                img{
+                    width: 150px;
+                    height: 150px;
+                }
+            }
+
+            .first{
+                background: $navbar-color;
+                width: 100%;
+                height: 80px;
+                border-radius: 10px;
+                margin-left: 50px;
+            }
+            .second{
+                background: $navbar-color;
+                width: 100%;
+                height: 30px;
+                border-radius: 10px;
+                margin: 8px 0px 8px 50px;
+            }
+        }
+    }
+
+    .container1{
+        @include flexCenter;
+
+        .box{
+            img{
+                width: 200%;
+                height: 200%;
+            }
+        }
+
+        .box2{
+            color: $text-color;
+            background: $navbar-color;
+            padding: 50px;
+            border-radius: 10px;
+            margin-left: 200px;
+
+            h2{
+                font-size: 30px;
+                margin-bottom: 10px;
+            }
+            p{
+                font-size: 20px;
+            }
+        }
+    }
+}

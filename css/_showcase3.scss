@@ -1,0 +1,70 @@
+@import './utilitys';
+
+.showcase3{
+    @include flexCenter;
+    flex-wrap: wrap;
+    color: white;
+    flex-direction: column;
+    margin-top: 150px;
+
+    .show{
+        font-size: 20px;
+        font-weight: bold;
+        background: $radient-linear;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 10px;
+        text-transform: uppercase
+    }
+
+    .normal{
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .container{
+        @include flexCenter;
+        justify-content: space-around;
+        margin: auto;
+        width: 1000px;
+        height: 500px;
+        background: $navbar-color;
+        border: 1px solid $navbar-color;
+        border-radius: 10px;
+
+        .text{
+            font-size: 20px;
+            font-weight: 300;
+            color: $text-color;
+            margin-left: 15px;
+            
+            p{
+                padding: 17px;
+            }
+        }
+    }
+
+    #container2{
+        background: rgba(0,0,0,0.4);
+        width: 250px;
+        height: auto;
+        padding: 15px;
+        border: 1px solid rgba(0,0,0,0.4);
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: 300;
+        text-align: center;
+        margin: 20px 10px 20px 10px;
+
+        p{
+            padding: 20px;
+        }
+    }
+
+    .extra{
+        color: $primary-color;
+    }
+}

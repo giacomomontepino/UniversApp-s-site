@@ -1,0 +1,45 @@
+@import './utilitys';
+
+.showcase8{
+    @include flexCenter;
+    flex-direction: column;
+
+    img{
+        width: 50%;
+        height: 500px;
+        position: relative;
+        z-index: -1;
+        top: 200px;
+    }
+
+    .container{
+        background: $navbar-color;
+        @include flexCenter;
+        flex-direction: column;
+        width: 70%;
+        padding: 70px;
+        border-radius: 10px;
+        text-align: center;
+
+        h2{
+            font-size: 30px;
+            color: $primary-color;
+            margin: 10px;
+        }
+        
+        p{
+            font-size: 20px;
+            color: $text-color;
+            margin: 0px 10px 20px 10px;
+        }
+
+        button{
+            font-size: 20px;
+            background: black;
+            color: $primary-color;
+            border: 2px solid $primary-color;
+            border-radius: 10px;
+            padding: 20px;
+        }
+    }
+}

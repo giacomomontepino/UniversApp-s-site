@@ -1,0 +1,73 @@
+@import './utilitys';
+
+.showcase5{
+    .text{
+        @include flexCenter;
+        flex-direction: column;
+        color: white;
+        text-align: center;
+        margin-top: 150px;
+        font-size: 30px;
+    
+        .show{
+            font-size: 20px;
+            font-weight: bold;
+            background: $radient-linear;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+            text-transform: uppercase
+        }
+    }
+
+    .container{
+        @include flexCenter;
+        justify-content: space-between;
+        margin: 20px;
+
+        .container1{
+            @include flexCenter;
+            flex-direction: column;
+            padding: 35px 15px 35px 15px;
+
+            .box{
+                background: $navbar-color;
+                margin: 5px;
+                padding: 27px;
+                border: 1px solid $navbar-color;
+                border-radius: 10px;
+
+                .coomingSoon{
+                    @include flexCenter;
+                    justify-content: space-between;
+
+                    p{
+                        background: black;
+                        color: $primary-color;
+                        padding: 5px;
+                        border: 1px solid black;
+                        border-radius: 10px;
+                    }
+                }
+
+                h3{
+                    color: $primary-color;
+                    font-size: 25px;
+                }
+                p{
+                    color: $text-color;
+                    font-size: 20px;
+                }
+            }
+        }
+        
+        .container2{
+            @include flexCenter;
+            margin: 20px;
+            padding: 35px 15px 35px 15px;
+            background: $navbar-color;
+            border: 1px solid $navbar-color;
+            border-radius: 10px;
+        }
+    }
+}

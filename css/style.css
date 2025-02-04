@@ -1,0 +1,688 @@
+/* Variables */
+/* Mixin */
+/* Variables */
+/* Mixin */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(19, 19, 19);
+  height: 80px;
+  border-radius: 15px;
+  width: 1200px;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.navbar img {
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar ul a {
+  text-decoration: none;
+  margin: 0px 15px;
+  color: rgb(201, 196, 196);
+  list-style: none;
+}
+.navbar-btn {
+  padding: 10px;
+  border: 1px solid rgb(18, 50, 51);
+  border-radius: 7px;
+  background-color: rgb(18, 50, 51);
+  color: rgb(121, 238, 207);
+  margin: 10px 20px 10px 20px;
+  font-size: 15px;
+}
+
+/* Variables */
+/* Mixin */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.hero-left h1 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+.hero-left p {
+  color: rgb(201, 196, 196);
+  text-align: center;
+  margin: 15px 0px 15px 0px;
+  font-size: 20px;
+}
+.hero-left span {
+  background: rgb(0, 0, 0) linear-gradient(227deg, rgb(0, 0, 0) 0%, rgb(121, 238, 207) 100%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hero-btn1 {
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid rgb(121, 238, 207);
+  border-radius: 10px;
+  text-align: center;
+  background: rgb(121, 238, 207);
+  font-size: 17px;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+}
+.hero-btn2 {
+  margin: 10px;
+  padding: 15px;
+  width: 350px;
+  height: 50px;
+  font-size: 17px;
+  font-weight: bold;
+  background: rgb(105, 103, 103);
+  border: 1px solid rgb(105, 103, 103);
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Variables */
+/* Mixin */
+.showcase1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.showcase1 .container1 {
+  width: 350px;
+  height: 250px;
+  border: 1px solid rgb(19, 19, 19);
+  border-radius: 10px;
+  background: rgb(19, 19, 19);
+  color: white;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.showcase1 .container1-span {
+  background: rgb(0, 0, 0) linear-gradient(227deg, rgb(0, 0, 0) 0%, rgb(121, 238, 207) 100%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 10px;
+}
+
+/* Variables */
+/* Mixin */
+.showcase2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 150px;
+}
+.showcase2 .show {
+  background: rgb(0, 0, 0) linear-gradient(227deg, rgb(0, 0, 0) 0%, rgb(121, 238, 207) 100%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.showcase2 h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.showcase2 .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.showcase2 .container1 {
+  width: 450px;
+  height: 250px;
+  border: 1px solid rgb(19, 19, 19);
+  border-radius: 10px;
+  background: rgb(19, 19, 19);
+  color: white;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.showcase2 .container1 h2 {
+  font-size: 40px;
+  font-weight: bold;
+  background: rgb(0, 0, 0) linear-gradient(227deg, rgb(0, 0, 0) 0%, rgb(121, 238, 207) 100%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 10px;
+}
+
+/* Variables */
+/* Mixin */
+.showcase3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: white;
+  flex-direction: column;
+  margin-top: 150px;
+}
+.showcase3 .show {
+  font-size: 20px;
+  font-weight: bold;
+  background: rgb(0, 0, 0) linear-gradient(227deg, rgb(0, 0, 0) 0%, rgb(121, 238, 207) 100%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.showcase3 .normal {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.showcase3 .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  margin: auto;
+  width: 1000px;
+  height: 500px;
+  background: rgb(19, 19, 19);
+  border: 1px solid rgb(19, 19, 19);
+  border-radius: 10px;
+}
+.showcase3 .container .text {
+  font-size: 20px;
+  font-weight: 300;
+  color: rgb(201, 196, 196);
+  margin-left: 15px;
+}
+.showcase3 .container .text p {
+  padding: 17px;
+}
+.showcase3 #container2 {
+  background: rgba(0, 0, 0, 0.4);
+  width: 250px;
+  height: auto;
+  padding: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  margin: 20px 10px 20px 10px;
+}
+.showcase3 #container2 p {
+  padding: 20px;
+}
+.showcase3 .extra {
+  color: rgb(121, 238, 207);
+}
+
+/* Variables */
+/* Mixin */
+.showcase4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+  margin-top: 150px;
+  text-align: center;
+}
+.showcase4 .text .show {
+  font-size: 20px;
+  font-weight: bold;
+  background: rgb(0, 0, 0) linear-gradient(227deg, rgb(0, 0, 0) 0%, rgb(121, 238, 207) 100%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.showcase4 .text h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.showcase4 .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 20px 0px 20px;
+}
+.showcase4 .container .container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: rgb(19, 19, 19);
+  border: 1px solid rgb(19, 19, 19);
+  border-radius: 10px;
+  margin: 10px;
+  padding-bottom: 10px;
+}
+.showcase4 .container .container2 h3 {
+  width: 100%;
+  margin: 15px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.showcase4 .container .container2 .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: rgb(0, 0, 0);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  width: 180px;
+  height: 180px;
+  margin: 5px;
+}
+.showcase4 .container .container2 .box:hover {
+  background: rgb(40, 40, 40);
+}
+.showcase4 .container .container2 .box p {
+  margin-top: 15px;
+}
+
+/* Variables */
+/* Mixin */
+.showcase5 .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  margin-top: 150px;
+  font-size: 30px;
+}
+.showcase5 .text .show {
+  font-size: 20px;
+  font-weight: bold;
+  background: rgb(0, 0, 0) linear-gradient(227deg, rgb(0, 0, 0) 0%, rgb(121, 238, 207) 100%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.showcase5 .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  margin: 20px;
+}
+.showcase5 .container .container1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 35px 15px 35px 15px;
+}
+.showcase5 .container .container1 .box {
+  background: rgb(19, 19, 19);
+  margin: 5px;
+  padding: 27px;
+  border: 1px solid rgb(19, 19, 19);
+  border-radius: 10px;
+}
+.showcase5 .container .container1 .box .coomingSoon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+.showcase5 .container .container1 .box .coomingSoon p {
+  background: black;
+  color: rgb(121, 238, 207);
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.showcase5 .container .container1 .box h3 {
+  color: rgb(121, 238, 207);
+  font-size: 25px;
+}
+.showcase5 .container .container1 .box p {
+  color: rgb(201, 196, 196);
+  font-size: 20px;
+}
+.showcase5 .container .container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  padding: 35px 15px 35px 15px;
+  background: rgb(19, 19, 19);
+  border: 1px solid rgb(19, 19, 19);
+  border-radius: 10px;
+}
+
+/* Variables */
+/* Mixin */
+.gridContainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  gap: 10px;
+  margin: 150px 100px 0 100px;
+}
+.gridContainer .box1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(19, 19, 19);
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+.gridContainer .box1 .main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: rgb(201, 196, 196);
+}
+.gridContainer .box1 h2 {
+  font-size: 50px;
+  color: rgb(121, 238, 207);
+}
+.gridContainer .box1 p {
+  font-size: 30px;
+  color: rgb(201, 196, 196);
+}
+.gridContainer .box2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(19, 19, 19);
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+.gridContainer .box2 .head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  color: rgb(121, 238, 207);
+}
+.gridContainer .box2 .head img {
+  width: 80px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.gridContainer .box2 .head p {
+  color: rgb(121, 238, 207);
+}
+.gridContainer .box2 .head h2 {
+  text-align: start;
+  font-size: 30px;
+}
+.gridContainer .box2 .head h2 span {
+  font-size: 15px;
+}
+.gridContainer .box2 p {
+  color: rgb(201, 196, 196);
+  font-size: 20px;
+  padding: 20px;
+}
+.gridContainer .box3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(201, 196, 196);
+  margin-bottom: 20px;
+  background: rgb(19, 19, 19);
+}
+.gridContainer .box3 span {
+  color: rgb(121, 238, 207);
+}
+.gridContainer .box3 button {
+  font-size: 20px;
+  background: black;
+  color: rgb(121, 238, 207);
+  border: 2px solid rgb(121, 238, 207);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0px 20px 0px;
+}
+
+/* Variables */
+/* Mixin */
+.showcase7 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 150px;
+}
+.showcase7 .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.showcase7 .container .box {
+  color: rgb(201, 196, 196);
+  background: rgb(19, 19, 19);
+  padding: 50px;
+  border-radius: 10px;
+}
+.showcase7 .container .box h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.showcase7 .container .box p {
+  font-size: 20px;
+}
+.showcase7 .container .box2 {
+  background: black;
+}
+.showcase7 .container .box2 .head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(201, 196, 196);
+  border-radius: 10px;
+}
+.showcase7 .container .box2 .head img {
+  width: 150px;
+  height: 150px;
+}
+.showcase7 .container .box2 .first {
+  background: rgb(19, 19, 19);
+  width: 100%;
+  height: 80px;
+  border-radius: 10px;
+  margin-left: 50px;
+}
+.showcase7 .container .box2 .second {
+  background: rgb(19, 19, 19);
+  width: 100%;
+  height: 30px;
+  border-radius: 10px;
+  margin: 8px 0px 8px 50px;
+}
+.showcase7 .container1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.showcase7 .container1 .box img {
+  width: 200%;
+  height: 200%;
+}
+.showcase7 .container1 .box2 {
+  color: rgb(201, 196, 196);
+  background: rgb(19, 19, 19);
+  padding: 50px;
+  border-radius: 10px;
+  margin-left: 200px;
+}
+.showcase7 .container1 .box2 h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.showcase7 .container1 .box2 p {
+  font-size: 20px;
+}
+
+/* Variables */
+/* Mixin */
+.showcase8 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.showcase8 img {
+  width: 50%;
+  height: 500px;
+  position: relative;
+  z-index: -1;
+  top: 200px;
+}
+.showcase8 .container {
+  background: rgb(19, 19, 19);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 70%;
+  padding: 70px;
+  border-radius: 10px;
+  text-align: center;
+}
+.showcase8 .container h2 {
+  font-size: 30px;
+  color: rgb(121, 238, 207);
+  margin: 10px;
+}
+.showcase8 .container p {
+  font-size: 20px;
+  color: rgb(201, 196, 196);
+  margin: 0px 10px 20px 10px;
+}
+.showcase8 .container button {
+  font-size: 20px;
+  background: black;
+  color: rgb(121, 238, 207);
+  border: 2px solid rgb(121, 238, 207);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+/* Variables */
+/* Mixin */
+footer {
+  background: rgb(19, 19, 19);
+  margin-top: 150px;
+  padding-bottom: 70px;
+}
+footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+footer .container .box {
+  flex-direction: column;
+}
+footer .container .box img {
+  width: 150px;
+  height: 150px;
+}
+footer .container .box h2 {
+  font-size: 30px;
+  color: rgb(121, 238, 207);
+}
+footer .container .box p {
+  font-size: 30px;
+  color: rgb(201, 196, 196);
+}
+footer .container .box .social img {
+  margin-top: 10px;
+  width: 25px;
+  height: 20px;
+}
+footer .container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+footer .container2 .left {
+  flex-direction: column;
+  color: rgb(201, 196, 196);
+  font-size: 17px;
+}
+footer .container2 .right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(201, 196, 196);
+  font-size: 17px;
+}
+footer .container2 .right p {
+  margin-left: 20px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: black;
+}/*# sourceMappingURL=style.css.map */

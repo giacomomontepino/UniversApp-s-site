@@ -1,0 +1,57 @@
+@import './utilitys';
+
+.hero{
+    @include flexCenter;
+    
+    &-left{
+        @include flexCenter;
+        flex-direction: column;
+
+        h1{
+            color: white;
+            text-align: center;
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        p{
+            color: $text-color;
+            text-align: center;
+            margin: 15px 0px 15px 0px;
+            font-size: 20px;
+        }
+
+        span {
+            background: $radient-linear;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+
+    &-btn1{
+        margin: 10px;
+        padding: 15px;
+        border: 1px solid $primary-color;
+        border-radius: 10px;
+        text-align: center;
+        background: $primary-color;
+        font-size: 17px;
+        font-weight: bold;
+        width: 200px;
+        height: 50px;
+    }
+
+    &-btn2{
+        margin: 10px;
+        padding: 15px;
+        width: 350px;
+        height: 50px;
+        font-size: 17px;
+        font-weight: bold;
+        background: rgb(105, 103, 103);
+        border: 1px solid rgb(105, 103, 103);
+        border-radius: 10px;
+        text-align: center;
+    }
+
+}

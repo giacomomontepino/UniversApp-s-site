@@ -1,0 +1,70 @@
+@import './utilitys';
+
+.showcase4{
+    @include flexCenter;
+    color: white;
+    flex-direction: column;
+    margin-top: 150px;
+    text-align: center;
+
+    .text{
+        .show{
+            font-size: 20px;
+            font-weight: bold;
+            background: $radient-linear;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+            text-transform: uppercase
+        }
+
+        h2{
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+    }
+    .container{
+        @include flexCenter;
+        margin: 0px 20px 0px 20px;
+
+        .container2{
+            @include flexCenter;
+            flex-wrap: wrap;
+            background: $navbar-color;
+            border: 1px solid $navbar-color;
+            border-radius: 10px;
+            margin: 10px;
+            padding-bottom: 10px;
+
+            h3{
+                width: 100%;
+                margin: 15px;
+                font-size: 25px;
+                font-weight: bold;
+            }
+
+            .box{
+                @include flexCenter;
+                flex-direction: column;
+                flex-wrap: wrap;
+                background: rgba(0, 0, 0,);
+                border: 1px solid rgba(0, 0, 0,);
+                border-radius: 10px;
+                width: 180px;
+                height: 180px;
+                margin: 5px;
+
+                &:hover{
+                    background: rgb(40, 40, 40)
+                }
+
+                p{
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+}

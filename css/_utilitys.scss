@@ -1,0 +1,14 @@
+/* Variables */
+$radient-circle: rgb(121,238,207) radial-gradient(circle, rgba(121,238,207,1) 0%, rgba(0,0,0,1) 36%, rgba(0,0,0,1) 100%);
+$radient-linear: rgb(0,0,0) linear-gradient(227deg, rgba(0,0,0,1) 0%, rgba(121,238,207,1) 100%);
+$primary-color: rgb(121 ,238, 207);
+$navbar-color: rgb(19, 19, 19);
+$secondary-color: rgb(18, 50, 51);
+$text-color: rgb(201, 196, 196);
+
+/* Mixin */
+@mixin flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
